@@ -1,0 +1,22 @@
+{
+  "videos": [
+    {
+      "name": "FC24 Trailer",
+      "url": "/public/Videos/FC24 Trailer.mp4",
+      "views": 0,
+      "description": "Welcome to the club. Welcome to #EASPORTSFC."
+    },
+    {
+      "name": "CRISTIANO RONALDO OVERHEAD KICK FROM ALL ANGLES!",
+      "url": "/public/Videos/Cristiano.mp4",
+      "views": 0,
+      "description": "Cristiano Ronaldo's stunning overhead kick in the UEFA Champions League quarter-finals."
+    },
+    {
+      "name": "Eden Hazard | 10 Of His Best Goals For Chelsea!",
+      "url": "/public/Videos/Eden Hazard.mp4",
+      "views": 0,
+      "description": "Through his time at Chelsea, Eden Hazard scored 110 goals. Here are 10 of the best!"
+    }
+  ]
+}
