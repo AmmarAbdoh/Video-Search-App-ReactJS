@@ -1,6 +1,6 @@
 import { Dropdown } from "react-bootstrap";
 import videoData from "./videos_data.json";
-
+import "bootstrap/dist/css/bootstrap.min.css";
 const DropDownMenu = ({
   textInput,
   isFocused,
@@ -19,6 +19,7 @@ const DropDownMenu = ({
                 onClick={() => {
                   handleVideoSelection(video);
                 }}
+                className="custom-text-sm custom-text-md custom-text-lg"
               >
                 {video.name}
               </Dropdown.Item>
@@ -37,6 +38,7 @@ const DropDownMenu = ({
                     __html: highlightText(video.name, textInput),
                   }}
                   onClick={() => handleVideoSelection(video)}
+                  className="custom-text-sm custom-text-md custom-text-lg"
                 ></Dropdown.Item>
               ))
             ) : (
